@@ -20,7 +20,7 @@ function fntDato($dato,$inicio,$final){
 
 function fntURL($dato)
 {
-    $articulo =  fntDato($dato,'http','"');
+    $articulo =  fntDato($dato,'https','"');
     return $articulo;
 }
 
